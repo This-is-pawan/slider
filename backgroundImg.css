@@ -1,0 +1,52 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.first{
+ width: 100%;
+ height: 120vh;
+ background:linear-gradient(rgba(139, 85, 85, 0.5),rgba(0, 0, 0, 0.5)) , url('https://images.pexels.com/photos/2531546/pexels-photo-2531546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat  ;
+}
+ 
+
+.second{
+ color: black;
+ font-size: 30px;
+ text-align: center;
+ width: 100%;
+ height: 100vh;
+ 
+ background:url('https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=300') center/cover no-repeat fixed;
+}
+
+.third{
+ width: 100%;
+ height: 100vh;
+ opacity: 0.5;
+ color: black;
+ font-size: 30px;
+ text-align: center;
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.four{
+ width: 100%;
+ height: 100vh;
+ color: black;
+ font-size: 30px;
+ text-align: center;
+ 
+background: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
