@@ -1,0 +1,36 @@
+a{
+ display: block;
+ background: tan;
+ margin: 10px ;
+}
+
+/* a:link{
+ color: white;
+} 
+ a:visited{
+ color: rgb(35, 40, 35);
+}
+a:active{
+ color: rgb(38, 38, 181);
+}  */
+
+@keyframes scroll {
+ to{
+  transform:rotate(360deg);
+ }
+}
+.first{
+ width: 100px;
+ height: 100px;
+ padding: 0.5rem;
+ margin: 0.5rem;
+ border: 6px solid palegreen;
+ border-radius: 100%;
+ animation: scroll  1s linear  infinite;
+ border-bottom-color: rgb(16, 18, 85);
+}
+.circle{
+ display: inline-flex;
+ padding: 0.5rem;
+
+}
