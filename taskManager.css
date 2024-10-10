@@ -1,0 +1,127 @@
+
+
+
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background: rgb(245, 237, 240);
+}
+p{
+ line-height: 3rem;
+ text-align: left;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+width: 250px;
+ border: none;
+ letter-spacing: 2px;
+ padding:5px 6px; 
+background: rgb(245, 244, 241);
+border-top-left-radius:5px ;
+border-bottom-left-radius:5px;
+
+}
+.btn{
+ cursor: pointer;
+ text-transform: capitalize;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ letter-spacing: 2px;
+ padding: 5px 6px; 
+ border: none;
+ border-top-right-radius:5px ;
+border-bottom-right-radius: 5px;
+background: palevioletred;
+color: #fff;
+}
+h2{
+ padding: 1rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ letter-spacing: 2px;
+}
+.main{
+ background: white;
+ width: 400px;
+ height: 200px;
+ border-radius: 0.5rem;
+ margin: 2rem auto;
+ padding: 2rem;
+ box-shadow: 1px 1px 5px pink;
+}
+.main h2{
+ text-align: center;
+}
+::placeholder{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loading p{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 20px;
+ letter-spacing: 2px;
+ text-align: center;
+}
+.task{
+ width: 400px;
+ height: auto;
+ margin: 2rem auto;
+ 
+}
+.align{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 1px 1px 5px pink;
+ padding: 1rem;
+ margin:1rem ; 
+ background: #fff;
+border-radius: 5px;
+}
+
+ .fas{
+  font-size: 15px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.align span{
+ text-transform: capitalize;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 1rem;
+ margin:0 2px;
+ letter-spacing: 1px;
+}
+.align .fa-check-circle{
+ margin-right: 6px;
+ background: rgb(21, 21, 122);
+ color: #fff;
+ border-radius: 60%;
+ border: 1px solid rgb(66, 41, 41);
+}
+.spead{
+ width: 100%;
+ display: flex;
+ justify-content: end;
+ align-items: center;
+
+}
+.four_task span {
+text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
