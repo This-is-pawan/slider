@@ -1,49 +1,56 @@
-let data=[
-  {Name:"john1",age:34,sal:899999,id:1},
-  {Name:"john2",age:30,sal:799999,id:2},
-  {Name:"john3",age:33,sal:999999,id:3},
-  {Name:"john4",age:32,sal:109999,id:4},
-];
+// let data=[
+//   {Name:"john1",age:34,sal:899999,id:1},
+//   {Name:"john2",age:30,sal:799999,id:2},
+//   {Name:"john3",age:33,sal:999999,id:3},
+//   {Name:"john4",age:32,sal:109999,id:4},
+// ];
 
-let fil=data.filter((item)=>{
-return item;
+// let fil=data.filter((item)=>{
+// return item;
 
-});
+// });
 
-for (const ke of fil) {
+// for (const ke of fil) {
  
- console.log(`Name:${ke.Name}Age: ${ke.age} sal: ${ke.sal}`);
-}
+//  console.log(`Name:${ke.Name}Age: ${ke.age} sal: ${ke.sal}`);
+// }
 
-let find=data.find((item)=>{
- // return item;
- if (item.id===2) {
-  // console.log(item.Name);
-  return item;
- }
+// let find=data.find((item)=>{
+//  // return item;
+//  if (item.id===2) {
+//   // console.log(item.Name);
+//   return item;
+//  }
  
- });
+//  });
 
- console.log(find);
-data.reduce((acc,curr)=>{
-console.log( `${curr.Name} ${curr.age} ${curr.sal}`);
- },0);
+//  console.log(find);
+// data.reduce((acc,curr)=>{
+// console.log( `${curr.Name} ${curr.age} ${curr.sal}`);
+//  },0);
 
-// in simple way
-let arr =[84,3,45,89,90];
-arr.reduce((acc,curr,index)=>{
-console.log(acc+curr,index);
+// // in simple way
+// let arr =[84,3,45,89,90];
+// arr.reduce((acc,curr,index)=>{
+// console.log(acc+curr,index);
 
-},10) 
+// },10) 
 
+// let node=dom.getAttributeNS('class',)
+// console.log(node);
+// const d= document.querySelector('.parent ')
+// let dom =document.createElement('div');
+//  dom.innerHTML=`there is a heading `;
+// d.prepend(dom)
+// d.appendChild(dom); s
+// document.body.replaceChild(dom,d)
  
- 
-
- 
 
 
+// let dom2 = document.querySelector('#p');
 
-
+// let r = dom1.removeChild(dom2);
+// console.log(r);
 
 
 
