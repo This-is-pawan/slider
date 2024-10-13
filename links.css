@@ -27,7 +27,7 @@ a:active{
  border: 6px solid palegreen;
  border-radius: 100%;
  animation: scroll  1s linear  infinite;
- border-bottom-color: rgb(16, 18, 85);
+ border-bottom-color: rgb(16, 18, 85) ;
 }
 .circle{
  display: inline-flex;
