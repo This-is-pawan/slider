@@ -20,7 +20,7 @@ window.addEventListener("load",(e)=>{
  alert('your img is ready to access');
  alert(document.readyState);
 });
-window.addEventListener("load",(e)=>{
+window.addEventListener("beforeunload",(e)=>{
  alert('your img is ready to access');
  alert(document.readyState);
  return e.returnValue ='something random';

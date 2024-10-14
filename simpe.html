@@ -36,6 +36,7 @@
  let differentColorData = ['red','green','rgb(133,122,200)','#f1f5f8'];
 
 let alignSpan = document.querySelector('.align span');
+let h2 = document.querySelector('h2');
 let btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
@@ -46,6 +47,7 @@ btn.addEventListener('click', () => {
    
     alignSpan.textContent = hex;
     document.body.style.background = hex;
+h2.style.color =hex;
 });
 
 
