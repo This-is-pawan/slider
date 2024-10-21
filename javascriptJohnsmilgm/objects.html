@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: palegreen;
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(134, 96, 102);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>objects</h1>
+
+
+
+  <script>
+    const age = 89;
+    let person = {
+      Name: 'John',
+      Age: 'age',
+
+      getting: function (txt) {
+        console.log(`My name is ${this.Name} Text:${txt}`);
+
+      },
+      'name': 'This is text',
+      section() {
+        // console.log(`My name is ${this.Name}`);
+      }
+    };
+
+    // person.Name='pawan ';
+    // person.getting('This is a line of truth'); 
+    // person.section(); 
+
+    // console.log(person['name']);
+    // console.log(person.Age);
+
+    function Person(Name, Age) {
+      this.name = Name;
+      this.age = Age;
+      console.log(this.name);
+      console.log(this.age);
+
+
+    }
+    function bob(name) {
+      // this.name=name
+      //   console.log(this.name);
+      Name: 'the'
+    }
+
+    // const ne= new Person('john',56)
+    const h1 = new bob('jee', 50)
+    // console.log(ne);
+    // console.log(h);
+    const susy1 = new bob.constructor('susy', 'carpenter');
+    // susy1.Name();
+
+    function Bob(fastName, lastName) {
+      this.fName = fastName;
+      this.lName = lastName
+      console.log(`${this.fName}:${this.lName}`);
+
+      // Name:'the'
+    }
+    // const h = new Bob('jee', 50);
+    // console.log(h);
+
+    // const susy = new h.constructor('susy', 'carpenter');
+    // console.log(susy);
+
+// prototype 
+function Acc(customer,initBalance){
+this.Name=customer;
+this.Balance=initBalance;
+
+}
+let amount= new Acc('john',0);
+console.log(amount);
+
+let newAcc=Acc.prototype.bank=function name() { 
+   console.log('this is a happy');
+
+}
+amount.bank()
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
