@@ -17,15 +17,47 @@
       font-size: 2rem;
       text-transform: capitalize;
     }
+
+    span {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 2rem;
+      margin: 2rem;
+    }
   </style>
 </head>
 
 <body>
   <h1>objects</h1>
+  <button class="btn">click</button>
+  <article class="text">
 
-
+    <span id="sp"></span>
+  </article>
 
   <script>
+
+    let incr = {
+      count: 0,
+      counting: function () {
+        this.count++
+        console.log(`${this.count}`);
+        span.innerText = this.count
+      }
+    }
+    let increase = document.querySelector('.btn');
+    let span = document.querySelector('.text #sp');
+    console.log(span);
+
+    let increment = incr.counting.bind(incr)
+    increase.addEventListener('click', increment);
+
+
+
+
+
+
+
+
     const age = 89;
     let person = {
       Name: 'John',
@@ -82,19 +114,65 @@
     // const susy = new h.constructor('susy', 'carpenter');
     // console.log(susy);
 
-// prototype 
-function Acc(customer,initBalance){
-this.Name=customer;
-this.Balance=initBalance;
+    // prototype 
+    // function Acc(customer,initBalance){
+    // this.Name=customer;
+    // this.Balance=initBalance;
+    // this.bank='there is a bank'
+    // }
+    // let amount= new Acc('john',0);
+    // console.log(amount);
 
-}
-let amount= new Acc('john',0);
-console.log(amount);
+    // Acc.prototype.bank=function name() {
+    //   console.log('her');
 
-let newAcc=Acc.prototype.bank=function name() { 
-   console.log('This is a happy singh');
-}
-amount.bank();
+    // };
+
+    let Sub = {
+      name: 'the ',
+      age: 45,
+      Greet: function (text, tih, yo) {
+        console.log(`${text} ${tih} ${yo}`);
+        console.log(this);
+
+      }
+    };
+    let your = {
+      name: 'there is small change'
+
+    }
+    function Greet() {
+      // console.log(`${text} ${tih} ${yo}`);
+      console.log(this);
+
+
+    }
+
+    // let submit1= new Sub();
+    // let first=Sub.Greet;
+    // first()
+    // first.call(Sub)
+
+    // Greet.call(Sub,'we are going to college','we are going to market','oi');s
+    // Greet.call(Sub);
+    // first.apply(Sub,['truck','bus','car']);
+    // let t=first.bind(Sub,'truck','bus','car');
+    // t()
+    // let submit2= new you();
+    // console.log(submit);
+    // submit1.call(you);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
