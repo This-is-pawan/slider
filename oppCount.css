@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(241, 237, 239);
+}
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 3px solid;
+  width: 200px;
+  margin: auto;
+}
+.btnAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstCounterAlign {
+  text-align: center;
+
+}
+.firstCounter h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+}
+.firstCounter span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.firstCounter {
+  width: 430px;
+  height: 250px;
+  margin: 2rem auto;
+  box-shadow: 2px 2px 5px pink;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 2px;
+}
+.secondCounter{
+ width: 430px;
+  height: 250px;
+  margin: 2rem auto;
+  box-shadow: 2px 2px 5px pink;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 2px;
+}
+.secondCounter span{
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+.secondCounter h2 {
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+ text-align: center;
+ margin-bottom: 2rem;
+ letter-spacing: 2px;
+ font-size: 1.9rem;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  background: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}

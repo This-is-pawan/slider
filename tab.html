@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tab.css">
+  <title>Tabbed Interface</title>
+</head>
+
+<body>
+  <section class="heading">
+    <h1>About</h1>
+    <p>Learn JavaScript by Building 30+ Interesting Projects</p>
+  </section>
+
+  <div class="main">
+    <div class="content-wrapper">
+      <section class="image-section">
+        <img src="https://images.pexels.com/photos/209652/pexels-photo-209652.jpeg?auto=compress&cs=tinysrgb&w=600"
+          class="img" alt="Cityscape">
+      </section>
+
+      <section class="text-section">
+        <div class="tabs">
+          <button class="tab-button active" data-id="history">History</button>
+          <button class="tab-button" data-id="vision">Vision</button>
+          <button class="tab-button" data-id="goals">Goals</button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-panel active" id="history">
+            <h4>History</h4>
+            <p>History is a fascinating story of evolution, combining cultural, technological, and social progress over
+              time.History is a fascinating story of evolution, combining cultural, technological, and social progress
+              over time.History is a fascinating story of evolution, combining cultural, technological, and social
+              progress over time.
+            </p>
+          </div>
+          <div class="tab-panel" id="vision">
+            <h4>Vision</h4>
+            <p>Vision represents the aspirations and long-term goals that guide our projects towards success.Vision
+              represents the aspirations and long-term goals that guide our projects towards success.Vision represents
+              the aspirations and long-term goals that guide our projects towards success.
+            </p>
+          </div>
+          <div class="tab-panel" id="goals">
+            <h4>Goals</h4>
+            <p>Goals are milestones that drive our efforts and define the path to reaching our vision
+              Goals are milestones that drive our efforts and define the path to reaching our vision.Goals are
+              milestones that drive our efforts and define the path to reaching our vision
+              Goals are milestones that drive our efforts and define the path to reaching our vision
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="tab.js"></script>
+</body>
+
+</html>

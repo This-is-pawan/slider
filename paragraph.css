@@ -1,0 +1,68 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+}
+
+h1{
+ text-transform: uppercase;
+ text-align: center;
+}
+body{
+ background: pink;
+}
+.textAlign{
+ display: flex;
+ margin: 1rem ;
+ justify-content: center;
+ font-size: 1.5rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ letter-spacing: 2px;
+}
+.generate{
+ margin-left: 1rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 20px;
+ letter-spacing: 2px;
+ padding: 3px 10px;
+ border: none;
+ border-radius: 8px;
+ background: rgb(175, 74, 91);
+ cursor: pointer; 
+ color: #fff;
+}
+.result{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 20px;
+ letter-spacing: 2px;
+ color: palevioletred;
+}
+#numberInput{
+ background: #fff;
+ border-radius: 5px;
+ width: 50px;
+ border: none;
+ font-size: 20px;
+ text-align: center;
+}
+::placeholder{
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+
+}
+.lorem-text{
+ margin: 1rem ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

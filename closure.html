@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  h1 {
+   text-align: center;
+  }
+ </style>
+</head>
+
+<body>
+ <h1>closure</h1>
+<p></p>
+ <script>
+  let head=document.querySelector('p')
+  function outer() {
+   let name = 'rohan';
+   function inner() {
+    console.log(`your name is : ${name}`);
+
+   }
+   inner();
+  }
+  console.log(name);
+
+  outer()
+// 3#####nin es6 
+ 
+// const a='john';
+//  a='smilgm';
+// console.log(a);
+const person={b:'john'}
+person.b='hig';
+// console.log(person.b);
+let first = 'first';
+let second = 'second';
+
+ // const u=Highlight `there is :${first} there is :${second}`;
+
+head.innerHTML=Highlight `there is :${first} there is :${second}`;
+function Highlight(strings, ...values) {
+    
+    return strings.map((str, i) => {
+     // console.log();
+     
+        return `${str}${values[i] ? `<h4>${values[i]}</h4>` : ''}`;
+    }).join('');
+}
+
+
+ </script>
+</body>
+
+</html>
